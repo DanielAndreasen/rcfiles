@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Must be run as a superuser
+
+
+git clone https://github.com/DanielAndreasen/rcfiles.git
+cd rcfiles
+
+sudo cp /etc/bash.bashrc /etc/bash.bashrc_old
+sudo cp bash.bashrc /etc/bash/bashrc
+
+cp ~/.vimrc ~/.vimrc_old
+cp vimrc ~/.vimrc
+
+cp ~/.latexmkrc ~/.latexmkrc_old
+cp latexmkrc ~/.latexmkrc
+
+source /etc/bash.bashrc
+
+clear
+echo
+echo "*    * *   *   * *  *    *  *   *  *  *"
+echo "*   Welcome to the starship terminal * "
+echo " *    *          *   *    * * *    *  *"
+echo "  * *  Have a nice flight captain *   *"
+echo " *   * *     *   *  *    *  *  *   *  *"
+echo
