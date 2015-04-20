@@ -1,0 +1,2 @@
+csv.vmb: call delete('/home/daniel/.vim/ftplugin/csv.vim')|call delete('/home/daniel/.vim/doc/ft-csv.txt')|call delete('/home/daniel/.vim/syntax/csv.vim')|call delete('/home/daniel/.vim/ftdetect/csv.vim')|call delete('/home/daniel/.vim/plugin/csv.vim')
+supertab.vmb: call delete('/home/daniel/.vim/doc/supertab.txt')|call delete('/home/daniel/.vim/plugin/supertab.vim')
