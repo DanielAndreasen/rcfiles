@@ -6,4 +6,4 @@ endif
 Abolish wavelenght{,s} wavelength{}
 Abolish tha the
 Abolish webpage web page
-Abolish seperat{,e,ing} separat{}
+Abolish seperate{,d,tion} separate{,d,tion}

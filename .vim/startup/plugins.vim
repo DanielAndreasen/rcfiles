@@ -16,6 +16,7 @@ nnoremap <F8> :TagbarToggle<CR>
 "tpope/vim-commentary
 nnoremap <C-c> :Commentary<CR>
 vnoremap <C-c> :Commentary<CR>
+autocmd FileType vim set commentstring=\"\ %s
 
 
 " Rainbow paranthesis

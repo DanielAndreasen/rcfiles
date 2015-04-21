@@ -6,11 +6,8 @@ export PATH=/home/daniel/scripts:$PATH
 export PATH=/home/daniel/Software/SPECPAR/MOOG2013:$PATH
 export PATH=/home/daniel/Documents/Uni/phdproject/programs/astro_scripts:$PATH
 export PATH=$HOME/local/bin:$PATH
-export PATH=$HOME/Software/anaconda3/bin:$PATH
-# User configuration
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/anaconda3/bin:$PATH
 export FPATH=$HOME/GIT/conda-zsh-completion:$FPATH
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export PYTHONPATH=$HOME/Documents/Uni/phdproject/programs/astro_scripts:$PYTHONPATH
 export EDITOR='vim'
@@ -56,10 +53,11 @@ source /home/daniel/.profile
 
 ## Aliasses
 # Open different files with different programs
+alias fuck='$(thefuck $(fc -ln -1))'
 alias less='less -M'
 alias cat='colorize'
 alias la='ls -a'
-alias ipython='/home/daniel/Software/anaconda3/bin/ipython'
+alias ipython='/home/daniel/anaconda3/bin/ipython'
 
 alias ipythonqt='ipython qtconsole --colors=linux --style monokai'
 alias lifa='sh /home/daniel/scripts/lifa.sh'
